@@ -10,9 +10,18 @@ const routes: Routes = [
     path: '',
     component: LayoutComponent,
     children: [
-      { path: '', component: DashboardComponent },
-      { path: 'page1', component: Page1Component },
-      { path: 'page2', component: Page2Component }
+      {
+        path: '',
+        component: DashboardComponent
+      },
+      {
+        path: 'page1',
+        component: Page1Component
+      },
+      {
+        path: 'page2',
+        component: Page2Component
+      }
     ]
   }
 ];
